@@ -1,6 +1,59 @@
 {
   "jobs": [
     {
+      "id": "job-1789379212313",
+      "title": "Principal Infrastructure Architect",
+      "department": "Engineering",
+      "location": "Worldwide Remote",
+      "region": "Worldwide Remote",
+      "type": "full-time",
+      "experienceLevel": "Lead",
+      "salaryMin": 180000,
+      "salaryMax": 230000,
+      "salaryCurrency": "USD",
+      "status": "active",
+      "featured": true,
+      "description": "Architecting planetary-scale distributed infrastructure.",
+      "responsibilities": [
+        "Scale worldwide clusters"
+      ],
+      "requirements": [
+        "Expert distributed systems knowledge"
+      ],
+      "benefits": [
+        "Global health coverage",
+        "Remote stipend"
+      ],
+      "createdAt": "2026-09-14T09:46:52.313Z",
+      "updatedAt": "2026-09-14T09:46:52.313Z"
+    },
+    {
+      "id": "job-1789379039840",
+      "title": "Staff Cloud Architect",
+      "department": "Engineering",
+      "location": "Worldwide Remote",
+      "region": "Worldwide Remote",
+      "type": "full-time",
+      "experienceLevel": "Senior",
+      "salaryMin": 160000,
+      "salaryMax": 210000,
+      "salaryCurrency": "USD",
+      "status": "active",
+      "featured": true,
+      "description": "Architecting multi-region systems.",
+      "responsibilities": [
+        "Design distributed systems"
+      ],
+      "requirements": [
+        "10+ years experience"
+      ],
+      "benefits": [
+        "Remote work"
+      ],
+      "createdAt": "2026-09-14T09:43:59.840Z",
+      "updatedAt": "2026-09-14T09:43:59.840Z"
+    },
+    {
       "id": "job-worldwide-01",
       "title": "Senior Distributed Systems Engineer",
       "department": "Engineering",

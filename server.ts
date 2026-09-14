@@ -12,7 +12,26 @@ dotenv.config();
 const app = express();
 const PORT = 3000;
 
-app.use(express.json());
+// Enable CORS for all incoming requests (crucial for iframe preview and cross-origin checks)
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE, OPTIONS');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  if (req.method === 'OPTIONS') {
+    return res.sendStatus(200);
+  }
+  next();
+});
+
+// Resilient JSON body parser with explicit JSON error response if malformed
+app.use((req, res, next) => {
+  express.json({ limit: '10mb' })(req, res, (err) => {
+    if (err) {
+      return res.status(400).json({ success: false, error: 'Malformed JSON payload in request body' });
+    }
+    next();
+  });
+});
 
 // Persistent local storage file path for fallback / seamless offline capability
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -344,6 +363,7 @@ app.get('/api/jobs/:id', async (req, res) => {
 
 app.post('/api/jobs', async (req, res) => {
   try {
+    const body = req.body || {};
     const {
       title,
       department,
@@ -360,7 +380,7 @@ app.post('/api/jobs', async (req, res) => {
       requirements,
       benefits,
       featured
-    } = req.body;
+    } = body;
 
     if (!title || !department || !location) {
       return res.status(400).json({ success: false, error: 'Title, department, and location are required' });
@@ -824,6 +844,26 @@ app.post('/api/reset-data', async (req, res) => {
   } catch (error: any) {
     res.status(500).json({ success: false, error: error.message });
   }
+});
+
+// Explicit 404 handler for any unmatched /api endpoints to ensure JSON is always returned (never HTML)
+app.all('/api/*', (req, res) => {
+  res.status(404).json({
+    success: false,
+    error: `API route not found: ${req.method} ${req.originalUrl}`
+  });
+});
+
+// Explicit JSON error handler for any unhandled API errors
+app.use((err: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
+  if (req.originalUrl.startsWith('/api') || req.path.startsWith('/api')) {
+    console.error('Unhandled API Error:', err);
+    return res.status(err.status || 500).json({
+      success: false,
+      error: err.message || 'Internal Server Error'
+    });
+  }
+  next(err);
 });
 
 async function startServer() {
