@@ -1,0 +1,6 @@
+{
+  "name": "Worldwide Careers & ATS",
+  "description": "Worldwide career portal and centralized HR applicant tracking system with job management, pipeline analytics, and automated status notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

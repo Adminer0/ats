@@ -1,0 +1,219 @@
+{
+  "jobs": [
+    {
+      "id": "job-worldwide-01",
+      "title": "Senior Distributed Systems Engineer",
+      "department": "Engineering",
+      "location": "Worldwide Remote (Any Timezone)",
+      "region": "Worldwide Remote",
+      "type": "full-time",
+      "experienceLevel": "Senior",
+      "salaryMin": 145000,
+      "salaryMax": 185000,
+      "salaryCurrency": "USD",
+      "status": "active",
+      "featured": true,
+      "description": "We are seeking an experienced Distributed Systems Engineer to scale our global multi-region cloud infrastructure, low-latency database replication, and edge-native data streaming architectures.",
+      "responsibilities": [
+        "Design, build, and maintain highly resilient distributed backend services deployed across multi-cloud regions.",
+        "Optimize database throughput, caching strategies, and global state synchronization using Neon Postgres and distributed storage.",
+        "Collaborate with worldwide cross-functional product and infrastructure teams asynchronously.",
+        "Participate in high-availability on-call rotations and lead post-incident architectural reviews.",
+        "Mentor junior and mid-level engineers across international hubs."
+      ],
+      "requirements": [
+        "5+ years of software engineering experience focusing on distributed backend microservices (Go, TypeScript, Rust, or Python).",
+        "Strong practical experience with PostgreSQL, replication, transaction isolation levels, and serverless database architectures.",
+        "Familiarity with containerized Kubernetes workloads, Docker, and CI/CD automation pipelines.",
+        "Demonstrated experience working in asynchronous, globally distributed engineering teams.",
+        "Excellent written communication and clear technical documentation habits."
+      ],
+      "benefits": [
+        "100% remote work flexibility from anywhere in the world",
+        "Competitive compensation with meaningful equity options",
+        "$3,500 annual home office, equipment, and co-working stipend",
+        "Unlimited paid time off with a mandatory 4-week annual minimum",
+        "Comprehensive international health, dental, and wellness coverage",
+        "$2,000 annual learning & conference conference allowance"
+      ],
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "updatedAt": "2026-09-12T10:30:00.000Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-01",
+      "jobId": "job-worldwide-01",
+      "jobTitle": "Senior Distributed Systems Engineer",
+      "candidateName": "Elena Rostova",
+      "email": "elena.rostova@techmail.io",
+      "phone": "+44 20 7946 0912",
+      "location": "London, United Kingdom (UTC+1)",
+      "currentRole": "Lead Backend Architect at CloudWave",
+      "experienceYears": 7,
+      "portfolioUrl": "https://github.com/erostova",
+      "linkedInUrl": "https://linkedin.com/in/elena-rostova-dev",
+      "coverNote": "Excited about high-scale distributed databases and multi-region consensus. I have spent the last 4 years architecting resilient event streams on Kafka and Postgres.",
+      "resumeFileName": "Elena_Rostova_Staff_Systems_Resume.pdf",
+      "resumeText": "Summary: 7+ years architecting microservices, Kubernetes clusters, and low-latency databases. Led migration of 40M daily active user services to serverless PostgreSQL.",
+      "stage": "technical",
+      "rating": 5,
+      "tags": [
+        "Go",
+        "Postgres",
+        "Distributed Systems",
+        "Kubernetes"
+      ],
+      "notes": [
+        {
+          "id": "note-1",
+          "author": "Sarah Chen (Senior Recruiter)",
+          "text": "Exceptional communication during initial screen. Deep knowledge of consensus algorithms and database sharding. Recommended for tech panel.",
+          "createdAt": "2026-09-08T14:20:00.000Z"
+        }
+      ],
+      "appliedAt": "2026-09-04T10:15:00.000Z",
+      "lastUpdated": "2026-09-09T16:00:00.000Z"
+    },
+    {
+      "id": "app-02",
+      "jobId": "job-worldwide-01",
+      "jobTitle": "Senior Distributed Systems Engineer",
+      "candidateName": "Marcus Vance",
+      "email": "m.vance@baycloud.net",
+      "phone": "+1 (415) 555-0199",
+      "location": "Seattle, WA, USA (PST)",
+      "currentRole": "Senior Infrastructure Engineer at DataSphere",
+      "experienceYears": 6,
+      "portfolioUrl": "https://marcusvance.io",
+      "linkedInUrl": "https://linkedin.com/in/marcus-vance",
+      "coverNote": "Passionate about edge caching and serverless databases like Neon. Looking for a high-impact global team with asynchronous culture.",
+      "resumeFileName": "Marcus_Vance_Resume_2026.pdf",
+      "resumeText": "Experience: Senior Infra Engineer. Built automated failover across AWS us-east-1 and eu-central-1. Expert in Rust, TypeScript, and Terraform.",
+      "stage": "interview",
+      "rating": 4,
+      "tags": [
+        "Rust",
+        "AWS",
+        "Multi-Region",
+        "Terraform"
+      ],
+      "notes": [
+        {
+          "id": "note-2",
+          "author": "Alex Thorne (Engineering Director)",
+          "text": "Strong technical interview round. Acceled in system design question regarding global consistency and cache invalidation.",
+          "createdAt": "2026-09-10T11:45:00.000Z"
+        }
+      ],
+      "appliedAt": "2026-09-02T16:30:00.000Z",
+      "lastUpdated": "2026-09-11T13:20:00.000Z"
+    },
+    {
+      "id": "app-03",
+      "jobId": "job-worldwide-01",
+      "jobTitle": "Senior Distributed Systems Engineer",
+      "candidateName": "Kaito Tanaka",
+      "email": "k.tanaka@tokyodev.jp",
+      "phone": "+81 3 5555 0143",
+      "location": "Tokyo, Japan (JST)",
+      "currentRole": "Backend Engineer at FastStream",
+      "experienceYears": 5,
+      "portfolioUrl": "https://github.com/ktanaka",
+      "linkedInUrl": "https://linkedin.com/in/kaito-tanaka",
+      "coverNote": "Experienced in building globally distributed microservices and handling high concurrency with PostgreSQL connections.",
+      "resumeFileName": "Kaito_Tanaka_CV.pdf",
+      "resumeText": "Experienced in Go, TypeScript, Node.js, and distributed SQL. Built data pipeline handling 100k events/sec.",
+      "stage": "screening",
+      "rating": 4,
+      "tags": [
+        "Go",
+        "PostgreSQL",
+        "Microservices",
+        "APAC"
+      ],
+      "notes": [],
+      "appliedAt": "2026-09-11T04:12:00.000Z",
+      "lastUpdated": "2026-09-11T04:12:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-01",
+      "applicationId": "app-01",
+      "candidateName": "Elena Rostova",
+      "recipientEmail": "elena.rostova@techmail.io",
+      "jobTitle": "Senior Distributed Systems Engineer",
+      "stage": "technical",
+      "subject": "Next Steps: Technical Deep-Dive Interview for Senior Distributed Systems Engineer",
+      "body": "Hi Elena Rostova,\n\nFollowing our initial chat, we are delighted to invite you to the technical interview stage for the Senior Distributed Systems Engineer position.",
+      "sentAt": "2026-09-09T16:02:00.000Z",
+      "status": "delivered",
+      "triggerType": "automatic"
+    },
+    {
+      "id": "notif-02",
+      "applicationId": "app-02",
+      "candidateName": "Marcus Vance",
+      "recipientEmail": "m.vance@baycloud.net",
+      "jobTitle": "Senior Distributed Systems Engineer",
+      "stage": "interview",
+      "subject": "Final Round Interview: Senior Distributed Systems Engineer at Global Tech",
+      "body": "Hi Marcus Vance,\n\nCongratulations on advancing to the final interview stage for Senior Distributed Systems Engineer! We are eager to introduce you to our team leads.",
+      "sentAt": "2026-09-11T13:22:00.000Z",
+      "status": "delivered",
+      "triggerType": "automatic"
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl-applied",
+      "stage": "applied",
+      "name": "Application Confirmation",
+      "subject": "Application Received: {{job_title}} at {{company}}",
+      "body": "Hi {{candidate_name}},\n\nThank you for applying for the {{job_title}} role at {{company}}. We have received your application and resume.\n\nOur talent acquisition team reviews every candidate worldwide. If your experience aligns with our requirements, we will reach out with next steps within 2-3 business days.\n\nBest regards,\nThe Global Talent Team at {{company}}"
+    },
+    {
+      "id": "tpl-screening",
+      "stage": "screening",
+      "name": "Initial Recruiter Screen",
+      "subject": "Invitation to Initial Recruiter Screen: {{job_title}}",
+      "body": "Hello {{candidate_name}},\n\nYour profile caught our attention for the {{job_title}} opening! We would love to schedule a 30-minute introductory conversation over video to discuss your background and what we are building at {{company}}.\n\nPlease pick a time that suits your timezone using our calendar link.\n\nLooking forward to speaking soon,\nGlobal HR & Recruitment"
+    },
+    {
+      "id": "tpl-technical",
+      "stage": "technical",
+      "name": "Technical Assessment",
+      "subject": "Next Steps: Technical Deep-Dive Interview for {{job_title}}",
+      "body": "Hi {{candidate_name}},\n\nFollowing our initial chat, we are delighted to invite you to the technical interview stage for the {{job_title}} position.\n\nThis will be a 60-minute session with our Principal Engineering leads focusing on systems architecture and practical problem solving. There are no trick whiteboard questions—just real engineering dialogue.\n\nBest regards,\nEngineering Talent Acquisition"
+    },
+    {
+      "id": "tpl-interview",
+      "stage": "interview",
+      "name": "Leadership & Culture Round",
+      "subject": "Final Round Interview: {{job_title}} at {{company}}",
+      "body": "Hi {{candidate_name}},\n\nCongratulations on advancing to the final interview stage for {{job_title}}! In this round, you will meet our VP of Product and fellow team members to explore collaboration, team culture, and how you approach complex challenges.\n\nWe will coordinate timing with your availability shortly.\n\nWarm regards,\nPeople & Culture"
+    },
+    {
+      "id": "tpl-offer",
+      "stage": "offer",
+      "name": "Official Offer Letter",
+      "subject": "Official Job Offer: Welcome to {{company}} as {{job_title}}!",
+      "body": "Dear {{candidate_name}},\n\nWe are thrilled to extend an official offer of employment for the position of {{job_title}} at {{company}}!\n\nThe full offer package, including compensation details, equity grant, and comprehensive global benefits, is attached for your review. We would be honored to have you join our mission.\n\nPlease let us know if you would like to schedule a call to walk through the details.\n\nSincerely,\nHead of Global People & Talent"
+    },
+    {
+      "id": "tpl-hired",
+      "stage": "hired",
+      "name": "Welcome & Onboarding Kickoff",
+      "subject": "Welcome to the team, {{candidate_name}}! Onboarding Info",
+      "body": "Hi {{candidate_name}},\n\nWelcome aboard! Your signed offer is confirmed. Our People Operations team has started preparing your hardware and credentials. We cannot wait for your day one!\n\nCheers,\nThe Entire Team at {{company}}"
+    },
+    {
+      "id": "tpl-rejected",
+      "stage": "rejected",
+      "name": "Polite Status Update",
+      "subject": "Update on your application for {{job_title}}",
+      "body": "Hi {{candidate_name}},\n\nThank you again for taking the time to share your background with us for the {{job_title}} position. While we were impressed with your credentials, we have chosen to proceed with another candidate whose current expertise more closely aligns with our immediate team needs.\n\nWe will keep your resume on file for future opportunities that match your skill set.\n\nWe wish you all the best in your career endeavors,\nGlobal Recruitment"
+    }
+  ]
+}
